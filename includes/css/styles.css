@@ -3,13 +3,19 @@
     text-align: start;
 }
 
-.table1{
-    width: 50% !important;    
+.table1, .table2{
+    width: 50% ;    
 }
 .table1 th{
     text-align: center;
 }
 
+.table1 td, .table2 th {
+    width: 15px;
+    font-weight: 600;
+    padding: 20px 10px 20px 15px;
+
+}
 .wrap-container .table2 {
     width: 100%;
     text-align: left;
@@ -35,18 +41,22 @@ tbody {
   width: 500px;
   
 }
-#add_column{
-    display: none;
+#add_column{   
     width: 30%;
 }
-
-.wrap-container table.table2-duble{
+.d-none{
     display: none;
+}
+.active{
+    display: block;
+}
+.wrap-container table.table2-duble{
+ 
     width: 100%;
     text-align: left;
 }
 
-.wrap-container button.button-primary-main, input.button-primary-main {
+.wrap-container button.button-primary-main, input.button-primary-main, .wp-core-ui .button-primary {
     background: #97b9e2 ;
     border-color: #97b9e2;
     text-align: center;  
